@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExpanseTracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="maindiv">
+      <div>
+        <h1 class="mainHeading">Expanse Tracker...</h1>
+      </div>
+      <div class="SecondDiv">
+        <h2 class="SecondDivh2">Balance: $0</h2>
+        <button class="addBtn">Add</button>
+      </div>
+
+      <div class="ThirdDiv" id="ThirdDiv" >
+        <input type="number" placeholder="Enter Amount" class="amount" />
+        <input type="text" placeholder="Enter Description" class="desc" />
+        <div class="radioBtn">
+          <div class="radio1">
+            <input type="radio" name="option" class="catagory" value="option1" id="option1"/><span
+              >Expanse</span
+            >
+          </div>
+          <div class="radio2">
+            <input type="radio" name="option" class="catagory" value="option2" id="option2"/><span>Income</span>
+          </div>
+        </div>
+        <button onclick="onAddData()" class="dataAddBtn">Add</button>
+      </div>
+
+      <div class="FouthDiv">
+        <div class="cardExpenses">
+          <h3>Expenses</h3>
+          <span class="ExpanseAmout">$0</span>
+        </div>
+
+        <div class="cardIncome">
+          <h3>Income</h3>
+          <span class="IncomeAmount">$0</span>
+        </div>
+      </div>
+
+      <div class="fifthDiv">
+        <ul class="listUl">
+          
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,226 @@
+.maindiv{
+    background: linear-gradient(#1dea6c,#67e798);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+.mainHeading{
+    color: antiquewhite;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+
+.SecondDiv{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SecondDivh2{
+    color: rgb(112, 109, 109);
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.addBtn{
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+    font-weight:bold;
+    border-radius: 30%;
+    border: none;
+    margin-right: 10px;
+    padding: 5px;
+    color: antiquewhite;
+    background-color: rgb(60, 104, 199);
+    cursor: pointer;
+}
+
+.addBtn:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+
+.ThirdDiv{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    height: 0px;
+    visibility: hidden;
+}
+
+.amount{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.desc{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+.radioBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.radio1{
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.radio2{
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dataAddBtn{
+    width: 60px;
+    height: 40px;
+    border: solid;
+    border-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: antiquewhite;
+    background: rgb(18, 171, 76);
+    cursor: pointer;
+    margin: 15px;
+    
+}
+
+.dataAddBtn:hover{
+    border-color: black;
+    color: black;
+    background: whitesmoke;
+}
+
+.FouthDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.cardExpenses{
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+}
+
+.cardExpenses h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 2px;
+}
+
+.cardExpenses span{
+    font-weight: bold;
+    color: red;
+    margin-top: 0px;
+}
+.cardIncome{
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+}
+
+.cardIncome h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 2px;
+}
+
+.cardIncome span{
+    font-weight: bold;
+    color: green;
+    margin-top: 0px;
+}
+
+
+.fifthDiv{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.fifthDiv ul{
+    list-style: none;
+}
+
+.fifthDiv ul li{
+    color: rgb(35, 33, 33);
+    margin-bottom: 40px;
+    margin: 10px;
+    border: solid;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    transition:ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
