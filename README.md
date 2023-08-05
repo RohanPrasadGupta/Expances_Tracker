@@ -2,6 +2,6 @@
 Expenses Tracker Using HTML, CSS and JavaScript
 
 
+![image](https://github.com/RohanPrasdGupta/Expances_Tracker/assets/90445636/d6efccaa-1603-4e65-8b52-2679417f8eec)
 
-![image](https://github.com/RohanPrasdGupta/Expances_Tracker/assets/90445636/694e3d48-dc7b-4886-911d-c37fe847636b)
 
