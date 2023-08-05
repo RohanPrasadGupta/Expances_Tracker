@@ -1,5 +1,5 @@
-# Expances_Tracker
-Expances Tracker Using HTML, CSS and JavaScript
+# Expenses_Tracker
+Expenses Tracker Using HTML, CSS and JavaScript
 
 
 
